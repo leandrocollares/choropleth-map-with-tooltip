@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+       url('../fonts/montserrat-v12-latin-regular.woff') format('woff'),
+       url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'),
+       url('../fonts/montserrat-v12-latin-700.woff') format('woff'),
+       url('../fonts/montserrat-v12-latin-700.ttf') format('truetype'); 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+#intro {
+  position: relative;
+  height: auto;
+  padding: 5px;
+  margin: 15px 0 15px 20px;
+}
+
+#intro h1 {
+  color: #333333;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px;
+  width: 120px;
+  font-size: 13px;
+  pointer-events: none;
+  background: #ffffff;
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+.countries {
+  stroke-linejoin: round;
+}
+
+.legend text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  fill: #333333;
+}
+
+.tick line {
+  stroke: #ffffff;
+}
+
+#source {
+  position: relative;
+  height: auto;
+  padding: 5px;
+  margin: 0 0 0 20px;
+}
+
+#source p {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #02818a;
+}
+
+a:visited {
+  color: #02818a;
+}
+
+a:focus {
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  border-bottom: 1px dotted;     
+}
+
+a:active {
+  color: #016c59;
+}
